@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@media(min-width:300px),(orientation:landscape){
+
+    :root {
+    --cor0: #044268;
+    --cor1: #04050b;
+}
+
+body
+{
+    background-image: linear-gradient(to right, var(--cor0), var(--cor1));
+    font-family:'Inter' ;
+    padding: 20px;
+}
+
+header
+{
+    text-align: left;
+}
+
+header > a >img
+{
+    width: 130px;
+    
+    padding:30px;
+    margin-left: 30px;
+}
+
+nav
+{
+    text-align: right;
+    font-family: 'Inter';
+    padding-right: 30px;
+}
+
+nav > a
+{
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.748);
+}
+
+h1,h2
+{
+    font-family: 'Inter';
+    font-weight: bolder;
+    color: white;
+    font-size:37px;
+}
+
+h2{
+    padding-top:50px;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+}
+
+@media(max-width:720px){
+    :root {
+    --cor0: #044268;
+    --cor1: #04050b;
+}
+
+body
+{
+    background-image: linear-gradient(to right, var(--cor0), var(--cor1));
+    font-family:'Inter' ;
+    padding: 20px;
+}
+
+header
+{
+    text-align: left;
+}
+
+header > a >img
+{
+    width: 130px;
+    
+    padding:30px;
+    margin-left: -19px;
+}
+
+nav
+{
+    text-align: right;
+    font-family: 'Inter';
+    padding-right: 30px;
+}
+
+nav > a
+{
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.748);
+}
+
+h1,h2
+{
+    font-family: 'Inter';
+    font-weight: bolder;
+    color: white;
+    font-size:37px;
+}
+
+h2{
+    padding-top:50px;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+}
+
+
