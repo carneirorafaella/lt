@@ -95,6 +95,22 @@ p{
     border-radius: 8px;
 }
 
+.card2{
+    background-color: #04050b;
+    border-radius: 8px;
+    padding: 16px;
+    width: 50px;
+    text-align: center;
+}
+
+.card2 > a{
+    color: white;
+    font-family:'Inter';
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
 }
 
 @media(max-width:720px){
