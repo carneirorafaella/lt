@@ -62,6 +62,38 @@ p{
     font-size: 19px;
 }
 
+.produtos{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #04050b;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    text-align: center;
+}
+
+.card > img{
+    width: 120px;
+}
+
+.card > h4{
+    color: white;
+    font-size: 1.1em;
+}
+
+.card > a{
+    padding-top: 10px;
+    padding-right: 23px;
+    padding-bottom: 10px;
+    padding-left:23px ;
+    background-color: #044268;
+    color: white;
+    border-radius: 8px;
+}
 
 }
 
