@@ -9,12 +9,15 @@
     --cor1: #04050b;
 }
 
+*/{
+    height: 100%;
+}
 body
 {
-    background-image: linear-gradient(to right, var(--cor0), var(--cor1));
+    background-image: linear-gradient(to top, var(--cor1), var(--cor0));
     font-family:'Inter' ;
     padding: 20px;
-    height: 100%;
+    
     margin: 0;
 }
 
@@ -71,11 +74,12 @@ p{
 }
 
 .card{
-    background-color: #04050b;
+    background-color: #04324F;
     border-radius: 8px;
     padding: 16px;
     width: 200px;
     text-align: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
 }
 
 .card > img{
@@ -92,7 +96,7 @@ p{
     padding-right: 23px;
     padding-bottom: 10px;
     padding-left:23px ;
-    background-color: #044268;
+    background-color: #032a42;
     color: white;
     border-radius: 8px;
     text-decoration: none;
@@ -107,7 +111,8 @@ p{
 .card2{
     width: 150px;
    height: 100px;
-   background-color: #04050b;
+   background-color: #040A13;
+   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
 
    display: flex;
    justify-content: center;
@@ -122,65 +127,4 @@ p{
 }
 
 }
-
-@media(max-width:720px){
-    :root {
-    --cor0: #044268;
-    --cor1: #04050b;
-}
-
-body
-{
-    background-image: linear-gradient(to right, var(--cor0), var(--cor1));
-    font-family:'Inter' ;
-    padding: 20px;
-}
-
-header
-{
-    text-align: left;
-}
-
-header > a >img
-{
-    width: 130px;
-    
-    padding:30px;
-    margin-left: -19px;
-}
-
-nav
-{
-    text-align: right;
-    font-family: 'Inter';
-    padding-right: 30px;
-}
-
-nav > a
-{
-    color: white;
-    padding: 7px;
-    text-decoration: none;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.748);
-}
-
-h1,h2
-{
-    font-family: 'Inter';
-    font-weight: bolder;
-    color: white;
-    font-size:37px;
-}
-
-h2{
-    padding-top:50px;
-}
-
-p{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 19px;
-}
-}
-
 
