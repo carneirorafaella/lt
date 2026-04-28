@@ -23,13 +23,16 @@ body
 
 header
 {
-    text-align: left;
+    text-align:left;
 }
 
-header > a >img
+div > #img{
+    display: flex;
+    justify-content: center;
+}
+#img
 {
     width: 130px;
-    
     padding:30px;
     margin-left: 30px;
 }
@@ -141,9 +144,9 @@ p{
     background-color:#060e1b;
 }
 
-footer{
-   
-}
+ 
+
+
 
 footer > p{
     
